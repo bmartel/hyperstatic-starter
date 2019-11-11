@@ -1,4 +1,4 @@
-import { hyperstatic } from "@bmartel/hyperstatic";
+import { hyperstatic } from "@martel/hyperstatic";
 
 // App styling
 import "./app.css";

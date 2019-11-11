@@ -1,4 +1,4 @@
-import { Router, Link } from '@bmartel/hyperstatic'
+import { Router, Link } from '@martel/hyperstatic'
 
 // Root application view
 export default (state) => (

@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "hyperapp": "^2.0.1",
-    "@bmartel/hyperstatic": "^0.2.8",
+    "@martel/hyperstatic": "^0.2.8",
     "tachyons": "^4.11.1"
   },
   "devDependencies": {

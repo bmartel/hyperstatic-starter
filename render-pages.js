@@ -1,4 +1,4 @@
-const renderPages = require('@bmartel/hyperstatic/src/renderPages');
+const renderPages = require('@martel/hyperstatic/src/renderPages');
 
 (async () => {
   let pages = [
