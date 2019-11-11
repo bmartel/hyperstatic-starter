@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "autoprefixer": {
+      "grid": true
+    },
+    "postcss-import": {},
+    "postcss-conditionals": {},
+    "postcss-custom-media": {},
+    "postcss-extend-rule": {},
+    "@lipemat/css-mqpacker": {}
+  }
+}
+

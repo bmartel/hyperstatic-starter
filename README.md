@@ -6,10 +6,21 @@
 
 
 ## 🚀 Quick start: 
-[Click here to use this template](https://github.com/loteoo/hyperstatic-starter/generate), or run these commands:  
+[Click here to use this template](https://github.com/bmartel/hyperstatic-starter/generate), or run these commands:  
+
+
+Using npx
+
+```
+npx degit https://github.com/bmartel/hyperstatic-starter.git app
+```
+
+
+Or clone the project
+
 ```
 # Clone project
-git clone https://github.com/loteoo/hyperstatic-starter.git
+git clone https://github.com/bmartel/hyperstatic-starter.git
 
 cd hyperstatic-starter
 
@@ -17,7 +28,7 @@ npm install         # Install dependencies
 npm start           # Dev server + live reload
 ```
 
-Or use a [.zip download](https://github.com/loteoo/hyperstatic-starter/archive/master.zip)  
+Or use a [.zip download](https://github.com/bmartel/hyperstatic-starter/archive/master.zip)  
 
 
 #### Building your site : 
@@ -76,6 +87,6 @@ Proposed folder structure as your project grows. Adapt it to your needs.
 
 
 
-This starter project was based on this [Hyperapp starter](https://github.com/loteoo/hyperapp-starter). Hyperstatic and a few pages was then added in.
+This starter project was based on this [Hyperapp starter](https://github.com/bmartel/hyperapp-starter). Hyperstatic and a few pages was then added in.
 
 

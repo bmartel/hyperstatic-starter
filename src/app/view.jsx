@@ -1,4 +1,4 @@
-import { Router, Link } from 'hyperstatic'
+import { Router, Link } from '@bmartel/hyperstatic'
 
 // Root application view
 export default (state) => (
@@ -12,8 +12,8 @@ export default (state) => (
       {Router(state)}
     </main>
     <footer>
-      <a href="https://github.com/loteoo/hyperstatic-starter" target="_blank" rel="noopener noreferrer">Starter repository</a>
-      <a href="https://github.com/loteoo/hyperstatic" target="_blank" rel="noopener noreferrer">Hyperstatic repository</a>
+      <a href="https://github.com/bmartel/hyperstatic-starter" target="_blank" rel="noopener noreferrer">Starter repository</a>
+      <a href="https://github.com/bmartel/hyperstatic" target="_blank" rel="noopener noreferrer">Hyperstatic repository</a>
       <a href="https://hyperstatic.dev/" target="_blank" rel="noopener noreferrer">Hyperstatic demo site</a>
     </footer>
   </div>
