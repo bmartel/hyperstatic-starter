@@ -45,7 +45,7 @@ npm run render-pages
 - Uses [Parcel](https://parceljs.org/) for compilation, dev server and hot module reloading  
 - Works offline out of the box using [workbox](https://developers.google.com/web/tools/workbox/) to generate service workers and precache application files  
 - PWA/SPA ready with a default web app manifest  
-- Sane CSS defaults using [sanitize.css](https://csstools.github.io/sanitize.css/), a best-practices CSS reset  
+- Functional CSS using [tachyons](https://tachyons.io/), an efficient prototyping tool
 - Uses the [Standard](https://standardjs.com/) JavaScript style guide with eslint  
 -  Automatic import of the `h` function (say goodbye to that `h` import!)  
 - [JSX](https://reactjs.org/docs/introducing-jsx.html) and all of the ES6-7-8-9 goodies are ready to go thanks to Parcel.  
