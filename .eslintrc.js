@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['standard'],
+  extends: ['prettier'],
   plugins: ['import', 'react'],
   rules: {
     'no-unused-vars': [2, { varsIgnorePattern: 'h' }],
