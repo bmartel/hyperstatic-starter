@@ -13,7 +13,7 @@ hyperstatic({
   routes,
   init,
   view,
-  node: document.getElementById("app")
+  node: document.getElementById("app"),
 });
 
 // Enable the service worker when running the build command

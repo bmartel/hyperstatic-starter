@@ -1,4 +1,4 @@
-import { Router, Link } from '@martel/hyperstatic'
+import { Router, Link } from "@martel/hyperstatic";
 
 // Root application view
 export default (state) => (
@@ -8,13 +8,29 @@ export default (state) => (
       <Link to="/example-page">Example page</Link>
       <Link to="/counter">Counter</Link>
     </header>
-    <main>
-      {Router(state)}
-    </main>
+    <main>{Router(state)}</main>
     <footer>
-      <a href="https://github.com/bmartel/hyperstatic-starter" target="_blank" rel="noopener noreferrer">Starter repository</a>
-      <a href="https://github.com/bmartel/hyperstatic" target="_blank" rel="noopener noreferrer">Hyperstatic repository</a>
-      <a href="https://hyperstatic.dev/" target="_blank" rel="noopener noreferrer">Hyperstatic demo site</a>
+      <a
+        href="https://github.com/bmartel/hyperstatic-starter"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Starter repository
+      </a>
+      <a
+        href="https://github.com/bmartel/hyperstatic"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hyperstatic repository
+      </a>
+      <a
+        href="https://hyperstatic.dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hyperstatic demo site
+      </a>
     </footer>
   </div>
-)
+);

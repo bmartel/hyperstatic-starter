@@ -9,8 +9,8 @@ module.exports = {
   extractors: [
     {
       extractor: CssExtractor,
-      extensions: ["html", "js", "jsx"]
-    }
+      extensions: ["html", "js", "jsx"],
+    },
   ],
-  whitelist: ["*", /\[.*\]/, /::.+/]
+  whitelist: ["*", /\[.*\]/, /::.+/],
 };
